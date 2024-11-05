@@ -38,9 +38,10 @@ jobs:
       - name: uploadtozypherdemo
         uses: AmiyaRoyWTW/UploadTestResultsToZypherActionDemo@v1.1
         with:
-          resultsPath: 'test-results/results.xml'
+          resultsPath: '../../resources/plan-289406986-JOB1-584.log'
           framework: 'xunit'
           jiraUsername: ${{ secrets.JIRA_USERNAME }}
           jiraPassword: ${{ secrets.JIRA_PASSWORD }}
-          projectName: 'ZephyrDemo'
-          processingType: 'upload'
+          projectName: 'QA Practice'
+          domainUrl: ${{ secrets.DOMAIN_URL }}
+          testType: 'Smoke'
