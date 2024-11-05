@@ -36,7 +36,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: uploadtozypherdemo
-        uses: AmiyaRoyWTW/UploadTestResultsToZypherActionDemo@v1.1
+        uses: AmiyaRoyWTW/UploadTestResultsToZypherActionDemo@v1.3
         with:
           resultsPath: '../../resources/plan-289406986-JOB1-584.log'
           framework: 'xunit'
