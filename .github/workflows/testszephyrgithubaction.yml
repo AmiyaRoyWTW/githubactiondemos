@@ -43,5 +43,5 @@ jobs:
           jiraUsername: ${{ secrets.JIRA_USERNAME }}
           jiraPassword: ${{ secrets.JIRA_PASSWORD }}
           projectName: 'QA Practice'
-          domainUrl: ${{ secrets.DOMAIN_URL }}
+          domainUrl: 'https://jira.extendhealth.com'
           testType: 'Smoke'
